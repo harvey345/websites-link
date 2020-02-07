@@ -1,5 +1,5 @@
 print("These are the links to the websites.")
-print("\n1:Google   2:Facebook   3:Instagram   \n\n4:Youtube   5:G-mail   6:Tinkercad   \n\n7:Github   8:Scratch (Blocks for kid)   \n\n9:Google-Drive   10:Microbit")
+print("\n1:Google   2:Facebook   3:Instagram   \n\n4:Youtube   5:G-mail   6:Tinkercad   \n\n7:Github   8:Scratch (Blocks for kid)   \n\n9:Google-Drive   10:Microbit   \n\n11:Amazon   12:Google Map")
 ll=int(input("\nEnter the number of the website you want.(Only One!)\n"))
 if ll==1:
     print("Google:\nhttps://www.google.com/")
@@ -21,6 +21,10 @@ elif ll==9:
     print("Google-Drive:\nhttps://www.google.com/intl/zh-HK_ALL/drive/using-drive/")
 elif ll==10:
     print("Microbit:\nhttps://microbit.org/hk/code/")
+elif ll==11:
+    print("Amazon:\nhttps://www.amazon.com/s?k=bose+solo5&ref=nb_sb_noss_1")
+elif ll==12:
+    print("Google Map:\nhttps://www.google.com.tw/maps?hl=zh-TW&tab=rl1")
 else:
     print("We haven't set the website you want.")
 print()
